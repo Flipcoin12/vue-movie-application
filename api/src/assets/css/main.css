@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  max-width: 1140px;
+  margin-top: 60px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.form-wrapper{
+  text-align: left;
+}
+
+.form-wrapper .input-wrapper{
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.form-wrapper input[type="text"], .form-wrapper input[type="number"], .form-wrapper textarea{
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border: none;
+  border-bottom: 2px solid #35495e;
+  padding: 6px 0;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-wrapper input[type="text"]:focus, .form-wrapper input[type="number"]:focus, .form-wrapper textarea:focus{
+  outline: none;
+}
+
+.form-wrapper input[type="submit"]{
+  border: none;
+  background-color: #41b883;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.validation-info li{
+  display: inline-block;
+  border-bottom: 2px solid red;
+}
